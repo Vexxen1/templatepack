@@ -1,0 +1,11 @@
+{
+    "name": "Name(§a for common, §9 for uncommon, §b for rare, §6 for epic, §5 for eldritch)",
+    "description": "Description. Impact 0 is common, impact 1 is uncommon, impact 2 is rare, impact 3 is epic/elder.",
+    "icon": {
+        "item": "minecraft:stone"
+    },
+    "unchoosable": true,
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 8
+}

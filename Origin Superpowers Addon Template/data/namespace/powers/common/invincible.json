@@ -1,0 +1,55 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "disabled": {
+        "condition": {
+            "type": "origins:command",
+            "command": "execute if entity @s[tag=osp.PowerDisabled]",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "origin set @s osp:visual osp:visual/disabled"
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "origin set @s osp:visual namespace:visual/common/invincible"
+        }
+    },
+    "disabled_enable": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:command",
+            "command": "execute if entity @s[tag=osp.PowerDisabled]",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "origin set @s osp:visual namespace:visual/common/invincible"
+        },
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "origin set @s osp:visual namespace:visual/common/invincible"
+        }
+    },
+    "invulnerability": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:command",
+            "command": "execute if entity @s[tag=osp.PowerDisabled]",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:constant",
+            "value": true
+        }
+    }
+}
