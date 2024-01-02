@@ -1,0 +1,18 @@
+{
+    "values": [
+        "#minecraft:warped_stems",
+        "#minecraft:crimson_stems",
+        "minecraft:warped_wart_block",
+        "minecraft:nether_wart_block",
+        "sculk",
+        "shroomlight",
+        "moss_block",
+        "#minecraft:coral_blocks",
+        "cactus",
+        "chorus_flower",
+        "chorus_plant",
+        "mushroom_stem",
+        "red_mushroom_block",
+        "brown_mushroom_block"
+    ]
+}

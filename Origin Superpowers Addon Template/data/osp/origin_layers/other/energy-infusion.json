@@ -1,0 +1,24 @@
+{
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "osp:eldritch/energy-infusion"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "namespace:eldritch/energy-infusion_a",
+                        "comparison": "==",
+                        "compare_to": 1
+                    }
+                ]
+            },
+            "origins": [
+            ]
+        }
+    ],
+    "enabled": true
+}

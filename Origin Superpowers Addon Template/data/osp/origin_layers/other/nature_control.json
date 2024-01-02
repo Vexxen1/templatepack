@@ -1,0 +1,37 @@
+{
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "osp:eldritch/nature_control"
+                    }
+                ]
+            },
+            "origins": [
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "osp:eldritch/nature_control"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "namespace:eldritch/nature_control_value2",
+                        "comparison": "==",
+                        "compare_to": 1
+                    }
+                ]
+            },
+            "origins": [
+            ]
+        }
+    ],
+    "enabled": true
+}

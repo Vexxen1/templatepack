@@ -1,0 +1,16 @@
+{
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:command",
+                "command": "execute if entity @s[tag=Selected] unless score namespace:name osp.SuperpowerCount >= Limit-namespace:name osp.settings",
+                "comparison": ">=",
+                "compare_to": 1
+            },
+            "origins": [
+                "namespace:uncommon/name"
+            ]
+        }
+    ],
+    "enabled": true
+}
