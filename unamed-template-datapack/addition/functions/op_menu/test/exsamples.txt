@@ -1,0 +1,11 @@
+For Functions: 
+
+# function run test
+execute if score #TestStart function_run_count matches 0.. run scoreboard players add name function_run_count 1
+
+For Origin Powers:
+,
+{
+    "type": "origins:execute_command",
+    "command": "execute if score #TestStart function_run_count matches 0.. run scoreboard players add name powers_run_count 1"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Unamed Template Datapack",
+    "id": "namespace",
+    "pack": {
+        "pack_format": 10,
+        "description": "§5Version ?.?.?\n§eBy NameHere"
+    },
+    "authors": [
+        "NameHere"
+    ]
+}
