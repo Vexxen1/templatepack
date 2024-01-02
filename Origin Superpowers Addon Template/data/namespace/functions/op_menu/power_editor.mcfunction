@@ -3,7 +3,7 @@
 ## Replace [Rarity Name] with rarity name.
 ## Replace [rarity color] with rarity color. Colors shown below.
 ## Replace [Power Name] with power name.
-## Replace namespace:name with power ID
+## Replace namespace:name with physical origin ID
 # 'green' = common
 # 'blue' = uncommon
 # 'aqua' = rare
