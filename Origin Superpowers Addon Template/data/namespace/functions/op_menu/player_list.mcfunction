@@ -1,1 +1,0 @@
-execute if score @s powerID = namespace:invincible osp.SuperpowerEncoding run tellraw @s {"text":"[Set Power Limit]","color":"aqua","clickEvent":{"action":"suggest_command","value":"/scoreboard players set Limit-namespace:name osp.settings 2147483647"},"hoverEvent":{"action":"show_text","contents":"When 0, no one can get the power. Set how many players can get this power."}}
